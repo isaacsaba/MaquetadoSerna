@@ -1,0 +1,84 @@
+@media (max-width: 500px) {
+    body{
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+    }
+    #divnabresp {
+
+        display: flex;
+        justify-content: center;
+
+    }
+    #divnabresp a{
+
+        margin-left: 15px;
+        margin-right: 20px;
+
+    }
+    #headwhatsapp{
+        position: relative;
+        top: 25%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    #divnab{
+        display: none;
+    }
+    .dropdown-menu{
+       width: 100%;
+       margin: 0%;
+       padding-top: 0%;
+       border: 0 ;
+    } 
+    #logo{
+        position: relative;
+        right: 20px;
+    }
+}
+@media (min-width: 500px){
+    body{
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+    }
+    #divnabresp {
+
+        display: none;
+
+    }
+ 
+    #divnab{
+        display: flex;
+        justify-content: center;
+    }
+    #logo{
+        margin-right: 10%;
+        width:120px ;
+        height:96px;
+    }
+    #headabout{
+        width: 125px; 
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    #headservicios{
+        width: 235px; 
+        margin-right: 30px;
+    }
+    #headcontactos{
+        width: 160px; 
+        margin-right: 70px;
+    }
+    nav ul li a {
+        margin-top: 60px;
+    }
+    nav ul li a p{
+        font-size: 18pt;
+        color:  rgb(5, 12, 101);
+        font-family: Calibri;
+    }
+    nav ul li a p:hover{
+        color: gray;
+        border-bottom: 4px solid gray;
+    }
+}

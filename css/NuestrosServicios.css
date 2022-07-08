@@ -1,0 +1,450 @@
+@media (max-width: 500px) {
+
+    /*seccion 1*/
+    #section1 {
+
+        background-image: url("../img/Servicios-Responsivo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 25vh;
+        
+
+    }
+    #section1 h1 {
+
+        visibility: hidden;
+
+    }
+
+    /*seccion 2*/
+    #section2 {
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 12pt;
+
+    }
+
+    #section2 h2 {
+
+        text-align: center;
+        color: rgb(2, 5, 48);
+        font-size: 15pt;
+        font-weight: bolder;
+        margin-bottom: 50px;
+
+
+    }
+
+    #hrsc2 {
+        display: none;
+    }
+
+    #section2 p {
+
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        line-height: 20px;
+
+    }
+    /*seccion 3*/
+    #section3 {
+
+        background-image: url("../img/Notarial_R.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 25vh;
+        margin-bottom: 280px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    #section3 div {
+        text-align: justify;
+        color: black;
+        position: relative;
+        top: 150px;
+    }
+    #section3 div h2{
+        text-align: justify;
+        color: white;
+        position: relative;
+        left: 250px;
+        font-size: 18pt;
+        top: 20px;
+
+    }
+
+    #section3 div p {
+        position: relative;
+        line-height: 20px;
+
+        font-size: 12pt;
+        top: 80px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+    /*seccion 4*/
+    #section4 {
+
+        background-image: url("../img/Legal_R.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 25vh;
+        margin-bottom: 290px;
+        font-family: 'Poppins', sans-serif;
+
+
+    }
+
+    #section4 div {
+        text-align: justify;
+        color: black;
+        position: relative;
+        top: 70px;
+    }
+    #section4 div h2{
+        color: white;
+        position: relative;
+        font-size: 14pt;
+        left: 50px;
+    }
+
+    #section4 div p {
+        position: relative;
+        line-height: 20px;
+        font-size: 12pt;
+        top: 150px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+    /*seccion 5*/
+    #section5 {
+
+        background-image: url("../img/Finanzas_R.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 25vh;
+        margin-bottom: 200px;
+        font-family: 'Poppins', sans-serif;
+
+
+    }
+
+    #section5 div {
+        text-align: justify;
+        color: black;
+        position: relative;
+        top: 150px;
+    }
+    #section5 div h2{
+        text-align: justify;
+        color: white;
+        position: relative;
+        left: 250px;
+        font-size: 18pt;
+        top: 20px;
+
+    }
+
+    #section5 div p {
+        position: relative;
+        font-size: 12pt;
+        top: 75px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+    /*seccion 6*/
+    #section6 {
+
+        background-image: url("../img/Litigo_R.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 25vh;
+        margin-bottom: 310px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    #section6 div {
+        text-align: justify;
+        color: black;
+        position: relative;
+        top: 150px;
+    }
+    #section6 div h2{
+        text-align: justify;
+        color: white;
+        position: relative;
+        left: 50px;
+        font-size: 18pt;
+
+    }
+
+    #section6 div p {
+        position: relative;
+        font-size: 12pt;
+        top: 90px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+}
+
+@media (min-width: 500px) {
+
+    /*seccion 1*/
+    #section1 {
+
+        background-image: url("../img/Nuestros-Servicios.jpg");
+        background-size: contain;
+        min-height: 80vh;
+        background-repeat: no-repeat;
+
+    }
+
+    #section1 h1 {
+
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 180px;
+        right: 300px;
+        font-size: 40pt;
+
+    }
+
+    /*seccion 2*/
+    #section2 {
+
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-size: 18pt;
+
+    }
+
+    #section2 h2 {
+
+        text-align: center;
+        color: rgb(2, 5, 48);
+
+    }
+
+    #hrsc2 {
+        display: block;
+        margin-top: 4px;
+        border: 3px solid rgb(2, 5, 48);
+        ;
+        width: 350px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px
+    }
+
+    #section2 p {
+
+        padding-left: 200px;
+        padding-right: 200px;
+        text-align: justify;
+
+    }
+
+    /*seccion 3*/
+    #section3 {
+
+        background-image: url("../img/Notarial_Servicios.jpg");
+        background-position: center;
+        background-size: contain;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+
+    }
+
+    #section3 div {
+        padding-left: 200px;
+        padding-right: 600px;
+        text-align: justify;
+        color: white;
+        position: relative;
+        top: 150px;
+        left: 400px;
+    }
+    #section3 div h2 b {
+        position: relative;
+        left: 120px;
+    }
+    #section3 div p {
+        font-size: 14pt;
+        position: relative;
+        left: 120px;
+    }
+
+    /*seccion 4*/
+    #section4 {
+
+        background-image: url("../img/Legal_Corporativa.jpg");
+        background-position: center;
+        background-size: contain;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+
+    }
+
+    #section4 div {
+        padding-left: 200px;
+        padding-right: 600px;
+        text-align: justify;
+        color: white;
+        position: relative;
+        top: 150px;
+        right: 50px;
+    }
+  
+    #section4 div p {
+        font-size: 14pt;
+    }
+
+    /*seccion 5*/
+    #section5 {
+
+        background-image: url("../img/Finanzas_Servicios.jpg");
+        background-position: center;
+        background-size: contain;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+
+    }
+
+    #section5 div {
+        padding-left: 200px;
+        padding-right: 600px;
+        text-align: justify;
+        color: white;
+        position: relative;
+        top: 250px;
+        left: 500px;
+    }
+
+    #section5 div p {
+        font-size: 14pt;
+        position: relative;
+        left: 20px;
+    }
+    #section5 div h2 b {
+        position: relative;
+        left: 20px;
+    }
+
+    /*seccion 6*/
+    #section6 {
+
+        background-image: url("../img/Litigo_Servicios.jpg");
+        background-position: center;
+        background-size: contain;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+
+    }
+
+    #section6 div {
+        padding-left: 200px;
+        padding-right: 600px;
+        text-align: justify;
+        color: white;
+        position: relative;
+        top: 200px;
+    }
+
+    #section6 div p {
+        font-size: 14pt;
+        position: relative;
+        right: 120px;
+    }
+    #section6 div h2 b {
+        position: relative;
+        right: 120px;
+
+    }
+
+    @media (min-width: 1600px) {
+        #section1 {
+
+            min-height: 75vh;
+        }
+
+        #section1 h1 {
+            top: 200px;
+            right: 400px;
+            font-size: 60pt;
+
+        }
+
+        #section2 p {
+
+            padding-left: 400px;
+            padding-right: 400px;
+            text-align: justify;
+
+        }
+
+        #section3,
+        #section4,
+        #section5,
+        #section6 {
+            min-height: 90vh;
+        }
+
+        #section3 div {
+            padding-left: 300px;
+            top: 200px;
+            left: 550px;
+        }
+        #section3 div h2 b,#section3 div p,#section5 div h2 b,#section5 div p {
+            left: 0;
+        }
+
+        #section4 div {
+
+            padding-right: 800px;
+            top: 200px;
+            right: 100px;
+        }
+
+        #section5 div {
+            padding-left: 400px;
+            padding-right: 600px;
+            top: 250px;
+            left: 600px;
+        }
+
+        #section6 div {
+            padding-left: 200px;
+            padding-right: 800px;
+            top: 200px;
+        }
+
+        #section2 div p,
+        #section3 div p,
+        #section4 div p,
+        #section5 div p,
+        #section6 div p {
+            font-size: 20pt;
+        }
+
+        #section2 div h2,
+        #section3 div h2,
+        #section4 div h2,
+        #section5 div h2,
+        #section6 div h2 {
+            font-size: 30pt;
+        }
+
+    }
+}

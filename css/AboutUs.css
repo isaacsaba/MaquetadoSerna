@@ -1,0 +1,887 @@
+@media (max-width: 500px) {
+
+    /*seccion 1*/
+    #section1 {
+
+        background-image: url("../img/Banner-About.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 25vh;
+        
+
+    }
+
+    /*seccion 2*/
+    #section2 {
+
+        background-image: url("../img/Experiencia.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 35vh 25vh;
+        min-height: 25vh;
+        
+
+    }
+    /*seccion 3*/
+    #section3 h1{
+        text-align: center;
+        color: rgb(2, 5, 48);
+        font-size: 18pt;
+    }
+    #section3 div div img{
+        width: 15vh;
+        height: 15vh;
+    }
+    #section3 h4{
+        text-align: center;
+        color: rgb(2, 5, 48);
+        font-size: 10pt;
+
+    }
+    
+     /*#section3 div div p{
+        padding-right:100px ;
+        padding-left: 100px;
+        color: black;
+        margin-top: 0;
+    }
+    #section3 p{
+        text-align: justify;
+        font-size: 10pt;
+        margin: 20px;
+    }
+    #honestidad p, #honestidad h4 {
+        position: relative;
+        right: 80px;
+    }
+    #honestidad img{
+        position: relative;
+        left: 40px;
+    }
+    #atención {
+        position: relative;
+        bottom: 270px;
+        left: 180px;
+        height:0px;
+    }
+    
+    #atención img{
+        position: relative;
+        left: 40px;
+    }
+    #atención p, #atención h4 {
+        position: relative;
+        right: 80px;
+    }
+    #resultados {
+        height: 160px;
+    }
+
+    #resultados img {
+        position: relative;
+        left: 40px;
+    }
+    #resultados p,  #resultados h4 {
+        position: relative;
+        left: 50px;
+        bottom: 110px;
+    }
+    #resultados p{
+        margin-right: 0%;
+    } */
+    /*seccion 4*/
+   
+    #section4 div div img{
+        width: 15vh;
+        height: 15vh;
+    }
+    .Subtitlesc4{
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        text-align: center;
+        color: white;
+        width: 150px;
+    }
+    #section4 p{
+        font-size: 10pt;
+        margin: 20px;
+    
+    }
+
+    #sec4div2{
+        position: relative;
+        left: 200px;
+        bottom: 373px;
+        height: 0;
+    }
+    #sec4div3{
+        height: 186.5px;
+    }
+    #Financiero{
+        position: relative;
+        left: 30px;
+    }#Inmobiliario{
+        position: relative;
+        left: 30px;
+    }#Transporte{
+        position: relative;
+        left: 30px;
+    }#Salud{
+        position: relative;
+        left: 30px;
+    }
+    #Telecomunicaciones{
+        position: relative;
+        left: 30px;
+    }
+    #Automotriz{
+        position: relative;
+        left: 230px;
+        bottom: 186.5px;
+        height: 0;
+    }
+    #Automotrizsub{
+        position: relative;
+        left: 200px;
+        bottom: 186.5px;
+    }
+    /*seccion 5*/
+    #section5 .row{
+        display: none;
+     }
+    #section5 .rowrp{
+       display: flex;
+    }
+    #section5 div div img{
+        width: 15vh;
+        height: 15vh;
+    }
+
+    #section5 p{
+        text-align: justify;
+        font-size: 10pt;
+        margin: 20px;
+    }
+    /*seccion 6*/
+
+    #section6{
+        display: flex;
+        justify-content: center ;
+    }
+    #imgalejandro  {
+        background-image:  url("../img/Alejandro_Moya.png" );
+        background-position: center  ; 
+        background-size: contain;
+        min-height: 40vh;
+        background-size: 170px 348px;
+        background-repeat: no-repeat;
+        width:170px ;
+        height:348px;
+        margin: 0;
+
+    }
+    #textsc6{
+        width:200px ;
+        height:150px;
+        position: relative;
+        z-index: 1;
+        
+        
+    }
+    #textsc6 h2{
+        margin-left: 20px;
+        color: black;
+        font-size: medium;
+        
+    }
+    #textsc6 hr{
+        display: none;
+    }
+    #textsc6 p{  
+        margin-left: 20px;
+        text-align: justify;
+        line-height: normal;
+        font-size: small;
+        position: relative;
+        bottom: 20px;
+        max-height: 150px;
+        overflow-y: scroll;
+        font-size: 10pt;
+    }
+    #textsc6 button{
+        margin-left: 20px;
+    }
+    #btnslider6{
+        width:40px;
+        height:40px;
+        margin: 5px;
+        padding:10px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        border: #454965;
+        background-color: #454965;
+        position: relative;
+        z-index: 2;
+        left: 10px;
+        top: 10px;
+    }
+    #btnslider6:hover{
+        background-color: gray;
+    }
+    #btnslider6 img{
+       width: 25px;
+       height: 25px;
+       position: relative;
+       bottom: 3px;
+       right: 2px;
+
+    }
+    #hrsc6{
+        margin: 0;
+        margin-top: 4px;
+        border: 3px solid #c1c1c4;
+        width: 100px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px
+    }
+    #botonsc6{
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border:none;
+        text-align: center;
+        height: 35px;
+         background-color: #454965;
+         color: white;
+         font-size: 10pt;
+         position: relative;
+         bottom: 25px;
+        
+    }
+    #botonsc6:hover{
+        background-color: gray;
+    }
+     /*seccion 7*/
+
+     #section7{
+        display: flex;
+        justify-content: center ;
+    }
+    #imgvictor  {
+        background-image:  url("../img/Serna.png" );
+        background-position: center  ; 
+        background-size: contain;
+        min-height: 40vh;
+        background-size: 170px 348px;
+        background-repeat: no-repeat;
+        width:170px ;
+        height:348px;
+        margin: 0;
+
+    }
+    #textsc7{
+        width:200px ;
+        height:150px;
+        position: relative;
+        z-index: 1;
+        
+        
+    }
+    #textsc7 h2{
+        margin-left: 20px;
+        color: black;
+        font-size: medium;
+        
+    }
+    #textsc7 hr{
+        display: none;
+    }
+    #textsc7 p{  
+        margin-left: 20px;
+        text-align: justify;
+        line-height: normal;
+        font-size: small;
+        position: relative;
+        bottom: 20px;
+        max-height: 150px;
+        overflow-y: scroll;
+        font-size: 10pt;
+    }
+    #textsc7 button{
+        margin-left: 20px;
+    }
+    #btnslider7{
+        width:40px;
+        height:40px;
+        margin: 5px;
+        padding:10px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        border: #454965;
+        background-color: #454965;
+        position: relative;
+        z-index: 2;
+        left: 10px;
+        top: 10px;
+    }
+    #btnslider7:hover{
+        background-color: gray;
+    }
+    #btnslider7 img{
+       width: 25px;
+       height: 25px;
+       position: relative;
+       bottom: 3px;
+       right: 2px;
+
+    }
+    #hrsc7{
+        margin: 0;
+        margin-top: 4px;
+        border: 3px solid #c1c1c4;
+        width: 100px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px
+    }
+    #botonsc7{
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border:none;
+        text-align: center;
+        height: 35px;
+         background-color: #454965;
+         color: white;
+         font-size: 10pt;
+         position: relative;
+         bottom: 25px;
+        
+    }
+    #botonsc7:hover{
+        background-color: gray;
+    }
+    /*seccion 8*/
+
+    #section8{
+        display: flex;
+        justify-content: center ;
+    }
+    #imgruben  {
+        background-image:  url("../img/Ruben-CV.png" );
+        background-position: center  ; 
+        background-size: contain;
+        min-height: 40vh;
+        background-size: 170px 348px;
+        background-repeat: no-repeat;
+        width:170px ;
+        height:348px;
+        margin: 0;
+
+    }
+    #textsc8{
+        width:200px ;
+        height:150px;
+        position: relative;
+        z-index: 1;
+        
+        
+    }
+    #textsc8 h2{
+        margin-left: 20px;
+        color: black;
+        font-size: medium;
+        
+    }
+    #textsc8 hr{
+        display: none;
+    }
+    #textsc8 p{  
+        margin-left: 20px;
+        text-align: justify;
+        line-height: normal;
+        font-size: small;
+        position: relative;
+        bottom: 20px;
+        max-height: 150px;
+        overflow-y: scroll;
+        font-size: 10pt;
+    }
+    #textsc8 button{
+        margin-left: 20px;
+    }
+    #btnslider8{
+        width:40px;
+        height:40px;
+        margin: 5px;
+        padding:10px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        border: #454965;
+        background-color: #454965;
+        position: relative;
+        z-index: 2;
+        left: 10px;
+        top: 10px;
+    }
+    #btnslider8:hover{
+        background-color: gray;
+    }
+    #btnslider8 img{
+       width: 25px;
+       height: 25px;
+       position: relative;
+       bottom: 3px;
+       right: 2px;
+
+    }
+    #hrsc8{
+        margin: 0;
+        margin-top: 4px;
+        border: 3px solid #c1c1c4;
+        width: 100px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px
+    }
+    #botonsc8{
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border:none;
+        text-align: center;
+        height: 35px;
+         background-color: #454965;
+         color: white;
+         font-size: 10pt;
+         position: relative;
+         bottom: 25px;
+        
+    }
+    #botonsc8:hover{
+        background-color: gray;
+    }
+
+}
+
+@media (min-width: 500px){
+    /*seccion 1*/
+    #section1{
+        
+        background-image: url("../img/Banner-AboutUs.jpg") ;
+        background-size: contain;
+        min-height: 78vh;
+        background-repeat: no-repeat;
+        z-index: -3;
+    
+    }
+    /*seccion 2*/
+    #section2{
+        
+        background-image:  url("../img/Experiencia.png" );
+        background-position: center  ;
+        background-size: contain;
+        min-height: 75vh;
+        background-repeat: no-repeat;
+    
+    
+    }
+    /*seccion 3*/
+    #section3 {
+        padding-top: 50px;
+        padding-left: 200px;
+        padding-right: 200px;       
+        padding-bottom: 0;
+    }
+    #section3 h1{
+        text-align: center;
+        color: rgb(2, 5, 48);
+
+    }
+    #section3 div{
+        text-align: center;
+
+    }
+    
+    #section3 div div {
+        display: grid;
+        justify-content: center;
+    }
+    
+    #section3 div div p{
+
+        padding: 30px;
+        padding-right:0 ;
+        color: black;
+    }
+    #section3 p{
+        text-align: justify;
+        padding-left: 30px;
+        font-size: 15pt;
+    }
+    /*seccion 4*/
+    #section4{
+        padding: 200px;
+        padding-top: 0;
+        padding-bottom: 0;
+
+    }
+    #section4 div{
+        text-align: center;
+
+    }
+    #section4 p{
+        text-align: justify;
+        padding-left: 30px;
+        font-size: 15pt;
+    }
+    .Subtitlesc4{
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        text-align: center;
+        color: white;
+        width: 240px;
+        position: relative;
+        left: 35px;
+        
+    }
+    /*seccion 5*/
+    #section5 .rowrp{
+        display: none;
+     }
+    #section5{
+        padding: 200px;
+        padding-top: 0;
+        padding-bottom: 0;
+
+    }
+    #section5 div div img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #section5 div{
+        text-align: center;
+
+    }
+    #section5 p{
+        text-align: justify;
+        padding-left: 30px;
+        font-size: 18pt;
+    }
+    /*seccion 6*/
+
+    #section6{
+        display: flex;
+        justify-content: center ;
+    }
+    #imgalejandro  {
+        background-image:  url("../img/Alejandro_Moya.png" );
+        background-position: center  ; 
+        background-size: contain;
+        min-height: 100vh;
+        background-size: 300px 478px;
+        background-repeat: no-repeat;
+        width:300px ;
+        height:478px;
+        margin: 0;
+
+    }
+    #textsc6{
+        background-color: #0a004b;
+        width:400px ;
+        height:350px;
+        position: relative;
+        top: 100px;
+        z-index: 1;
+        
+    }
+    #textsc6 h2{
+        margin-left: 20px;
+        color: white;
+        
+    }
+    #textsc6 hr{
+        margin-left: 20px; 
+    }
+    #textsc6 p{  
+        margin-left: 20px;
+        padding-right: 50px;
+        line-height: normal;
+        color: white;
+        max-height: 200px;
+        overflow-y: scroll;
+        text-align: justify;
+    }
+    #textsc6 button{
+        margin-left: 20px;
+    }
+    #btnslider6{
+        width:50px;
+        height:50px;
+        margin: 5px;
+        padding:10px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        border: #454965;
+        background-color: #454965;
+        position: relative;
+        left:  330px;
+        top: 130px;
+        z-index: 2;
+    }
+    #btnslider6:hover{
+        background-color: gray;
+    }
+    #btnslider6 img{
+       width: 110%;
+       height: 110%;
+    }
+    #hrsc6{
+        margin: 0;
+        margin-top: 4px;
+        border: 3px solid #c1c1c4;
+        width: 100px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px
+    }
+    #botonsc6{
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border:none;
+        width: 170px;
+        text-align: center;
+        height: 35px;
+        
+         background-color: #454965;
+         color: white;
+        
+    }
+    #botonsc6:hover{
+        background-color: gray;
+    }
+     /*seccion 7*/
+
+     #section7{
+        display: flex;
+        justify-content: center ;
+    }
+    #imgruben{
+        background-image:  url("../img/Ruben-CV.png" );
+        background-position: center  ; 
+        background-size: contain;
+        min-height: 100vh;
+        background-size: 300px 478px;
+        background-repeat: no-repeat;
+        width:300px ;
+        height:478px;
+        margin: 0;
+
+    }
+    #textsc7{
+        background-color: #0a004b;
+        width:400px ;
+        height:350px;
+        position: relative;
+        top: 100px;
+        z-index: 1;
+        
+    }
+    #textsc7 h2{
+        margin-left: 20px;
+        color: white;
+        
+    }
+    #textsc7 hr{
+        margin-left: 20px; 
+    }
+    #textsc7 p{  
+        margin-left: 20px;
+        padding-right: 50px;
+        line-height: normal;
+        color: white;
+        max-height: 200px;
+        overflow-y: scroll;
+        text-align: justify;
+    }
+    #textsc7 button{
+        margin-left: 20px;
+    }
+    #btnslider7{
+        width:50px;
+        height:50px;
+        margin: 5px;
+        padding:10px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        border: #454965;
+        background-color: #454965;
+        position: relative;
+        left:  330px;
+        top: 130px;
+        z-index: 2;
+    }
+    #btnslider7:hover{
+        background-color: gray;
+    }
+    #btnslider7 img{
+       width: 110%;
+       height: 110%;
+    }
+    #hrsc7{
+        margin: 0;
+        margin-top: 4px;
+        border: 3px solid #c1c1c4;
+        width: 100px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px
+    }
+    #botonsc7{
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border:none;
+        width: 170px;
+        text-align: center;
+        height: 35px;
+        
+         background-color: #454965;
+         color: white;
+        
+    }
+    #botonsc7:hover{
+        background-color: gray;
+
+    }
+     /*seccion 8*/
+
+     #section8{
+        display: flex;
+        justify-content: center ;
+    }
+    #imgvictor {
+        background-image:  url("../img/Serna.png" );
+        background-position: center  ; 
+        background-size: contain;
+        min-height: 100vh;
+        background-size: 300px 478px;
+        background-repeat: no-repeat;
+        width:300px ;
+        height:478px;
+        margin: 0;
+
+    }
+    #textsc8{
+        background-color: #0a004b;
+        width:400px ;
+        height:350px;
+        position: relative;
+        top: 100px;
+        z-index: 1;
+        
+    }
+    #textsc8 h2{
+        margin-left: 20px;
+        color: white;
+        
+    }
+    #textsc8 hr{
+        margin-left: 20px; 
+    }
+    #textsc8 p{  
+        margin-left: 20px;
+        padding-right: 50px;
+        line-height: normal;
+        color: white;
+        max-height: 200px;
+        overflow-y: scroll;
+        text-align: justify;
+
+    }
+    #textsc8 button{
+        margin-left: 20px;
+    }
+    #btnslider8{
+        width:50px;
+        height:50px;
+        margin: 5px;
+        padding:10px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        border: #454965;
+        background-color: #454965;
+        position: relative;
+        left:  330px;
+        top: 130px;
+        z-index: 2;
+    }
+    #btnslider8:hover{
+        background-color: gray;
+    }
+    #btnslider8 img{
+       width: 110%;
+       height: 110%;
+    }
+    #hrsc8{
+        margin: 0;
+        margin-top: 4px;
+        border: 3px solid #c1c1c4;
+        width: 100px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px
+    }
+    #botonsc8{
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border:none;
+        width: 170px;
+        text-align: center;
+        height: 35px;
+        
+         background-color: #454965;
+         color: white;
+        
+    }
+    #botonsc8:hover{
+        background-color: gray;
+
+    }
+    @media (min-width: 1600px){
+        #section3 div div img{
+            position: relative;
+            left: 100px;
+    
+        }
+        .Subtitlesc4{
+            left: 130px;
+            
+        }
+        #textsc6{
+            top: 250px;
+            
+        }
+        #textsc7{
+            top: 250px;
+            
+        }
+        #textsc8{
+            top: 250px;
+            
+        }
+        #btnslider6{
+            top: 280px;
+
+        }
+        #btnslider7{
+            top: 280px;
+
+        }
+        #btnslider8{
+            top: 280px;
+
+        }
+    }
+}
+

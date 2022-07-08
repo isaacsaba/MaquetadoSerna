@@ -1,0 +1,278 @@
+@media (max-width: 500px) {
+    /*seccion 1*/
+    #section1 {
+
+        background-image: url("../img/CONTACTANOS-IMAGEN.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 25vh;
+
+    }
+
+     /*seccion 2*/
+     #section2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card::before{
+        content: 'ENVIANOS UN MENSAJE';
+        color: rgb(5, 12, 101);
+        position: relative;
+        bottom: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 22pt;
+    }
+
+    .card {
+        background-image: url("../img/Fondo_Card.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vh;
+        height: 44vh;
+        border-radius: 20px;
+        margin-top: 100px;
+    }
+
+    .titlesc2 {
+        display: none;
+    }
+
+    #hrsc2 {
+        display: none;
+    }
+
+    #imgsc2{
+        display: none;
+
+    }
+    .form-control {
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        position: relative;
+        bottom: 25px;
+
+    }
+
+    input::placeholder {
+        position: absolute;
+    }
+
+    #botonsc2 {
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border: none;
+        width: 120px;
+        text-align: center;
+        height: 40px;
+        margin-left: 100px;
+        background-color: #959494;
+        color: white;
+        position: relative;
+        bottom: 30px;
+
+    }
+
+    #botonsc2:hover {
+        background-color: gray;
+    }
+ /*seccion 3*/
+ #section3{
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+#section3 h3{
+    color: rgb(2, 5, 48);
+    font-weight: 600;
+    font-size: 20pt;
+    margin-bottom: 20px;
+
+}
+#textsc3{
+    font-size: 14pt;
+    padding-right: 100px;
+    padding-top: 50px;
+    position: relative;
+    left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+iframe{
+    width: 300px;
+    height: 300px;
+}
+
+  
+ /*seccion 4*/
+
+}
+
+
+@media (min-width:500px) {
+    /*seccion 1*/
+    #section1{
+            
+        background-image: url("../img/Banner-Contactanos.jpg") ;
+        background-size: contain;
+        min-height: 78vh;
+        background-repeat: no-repeat;
+    
+    }
+    /*seccion 2*/
+    #section2{
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+     background-image: url("../img/Fondo_Card.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100vh;
+     height: 53vh;
+     border-radius: 20px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+    }
+    .titlesc2{
+        display:block;
+        margin-left: 60px;
+        padding: 0px;
+        margin-bottom: 0;
+    }
+    #hrsc2{
+        display:block;
+        margin-top: 4px;
+        border: 3px solid rgb(255, 255, 255);
+        width: 100px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px
+    }
+    #imgsc2{
+        
+        position: relative;
+        height: 220px;
+        width: 350px;
+        float: right;
+        top: 20px;
+        left: 20px;
+    
+    }
+    .form-control{
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        width: 40vh;
+        margin-bottom: 10px;
+    }
+    input::placeholder{
+        position: absolute;
+    }
+    #botonsc2{
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border:none;
+        width: 120px;
+        text-align: center;
+        height: 40px;
+         margin-left: 85px;
+         background-color: #959494;
+         color: white;
+         position: relative;
+         right: 30px;
+         bottom: 25px;
+        
+        
+    }
+    #botonsc2:hover{
+        background-color: gray;
+    }
+    /*seccion 3*/
+    #section3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-left: 200px;
+        padding-right: 250px;
+        margin-bottom: 50px;
+
+    }
+    #section3 h3{
+        color: rgb(2, 5, 48);
+        font-weight: 600;
+
+    }
+    #textsc3{
+        font-size: 14pt;
+        padding-right: 100px;
+        padding-top: 50px;
+        position: relative;
+        left: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+
+    @media (min-width: 1600px){
+        .form-control{
+            margin-bottom: 40px;
+            height: 60px;
+        }
+        input::placeholder{
+            font-size: 15pt;
+        }
+        #botonsc2{
+            position: relative;
+            left: 30px;
+            top: 10px;
+            
+        }
+        .titlesc2{
+            display:block;
+            margin-left: 60px;
+            padding: 0px;
+            margin-bottom: 0;
+            font-size: 45pt;
+        }
+        #hrsc2{
+            display:block;
+            margin-top: 4px;
+            border: 3px solid rgb(255, 255, 255);
+            width: 150px;
+            -webkit-border-radius: 20px;
+            border-radius: 20px
+        }
+        #imgsc2{
+        
+            position: relative;
+            height: 720px;
+            width: 720px;
+            float: right;
+            bottom: 170px;
+            left: 70px;
+        
+        }
+        #section3{
+            position: relative;
+            right: 100px;
+    
+        }
+        #section3 h3{
+            font-size: 28pt;
+    
+        }
+        #textsc3{
+            font-size: 19pt;
+            padding-right: 50px;
+            padding-left: 300px;
+            padding-top: 50px;
+            left: 0;
+            right: 100px;
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+  
+}
+
+

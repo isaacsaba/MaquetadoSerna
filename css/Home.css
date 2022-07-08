@@ -1,0 +1,355 @@
+@media (max-width: 500px) {
+    /*seccion 1*/
+    #section1 {
+
+        background-image: url("../img/Slider_Serna_Abogados.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+
+    }
+
+    #textsc1 {
+        font-size: 8pt;
+        visibility: hidden;
+        position: relative;
+        bottom: 25px;
+    }
+    #textsc1::before {
+        content: 'Somos un despacho de alto nivel con enfoque al cliente ';
+        visibility: visible;
+        position: relative;
+        top: 70px;
+        right: 30px;
+    }
+
+    #botonsc1 {
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        font-size: 8pt;
+        position: relative;
+        bottom: 60px;
+        left: 50px;
+
+    }
+
+    #botonsc1:hover {
+        background-color: #959494;
+    }
+     /*seccion 2*/
+    #section2 {
+
+        background-image: url(" ");
+        font-size: 8pt;
+
+    }
+    #botonsc2 {
+        background-color: rgb(5, 12, 101);
+        color: white;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        font-size: 8pt;
+        position: relative;
+        left: 125px;
+        bottom: 20px;
+    }
+    #textsc2 {
+        padding-left: 50px;
+        padding-right: 50PX;
+    }
+ /*seccion 3*/
+    #section3 {
+
+        background-image: url("../img/serna_abogados_cdmx.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+    #textsc3 {
+        font-size: 8pt;
+        visibility: hidden;
+        position: relative;
+        bottom: 25px;
+    }
+    #textsc3::before {
+        content: 'Contamos con 10 años de experiencia en el sector financero y de servicios';
+        visibility: visible;
+        position: relative;
+        top: 100px;
+        right: 30px;
+    }
+ /*seccion 4*/
+    #section4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card::before{
+        content: 'ENVIANOS UN MENSAJE';
+        color: rgb(5, 12, 101);
+        position: relative;
+        bottom: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 22pt;
+    }
+
+    .card {
+        background-image: url("../img/Fondo_Card.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vh;
+        height: 44vh;
+        border-radius: 20px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .titlesc4 {
+        display: none;
+    }
+
+    #hrsc4 {
+        display: none;
+    }
+
+    #imgsc4 {
+        display: none;
+
+    }
+    .form-control {
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        position: relative;
+        bottom: 25px;
+
+    }
+
+    input::placeholder {
+        position: absolute;
+    }
+
+    #botonsc4 {
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border: none;
+        width: 120px;
+        text-align: center;
+        height: 40px;
+        margin-left: 100px;
+        background-color: #959494;
+        color: white;
+        position: relative;
+        bottom: 30px;
+
+
+    }
+
+    #botonsc4:hover {
+        background-color: gray;
+    }
+}
+
+@media (min-width: 500px) {
+
+    /*seccion 1*/
+    #section1 {
+
+        background-image: url("../img/Slider_Serna_Abogados.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+
+    }
+
+    #textsc1 {
+        margin-top: 125px;
+        margin-left: 100px;
+        margin-right: 130px;
+        justify-self: center;
+        font-size: 18pt;
+        font-family:  Calibri;
+    }
+
+    #botonsc1 {
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        margin-left: 120px;
+        width: 180px;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+
+    #botonsc1:hover {
+        background-color: #959494;
+    }
+
+    /*seccion 2*/
+    #section2 {
+
+        background-image: url("../img/Bascula_mazo.png");
+        background-position: right;
+        background-size: cover;
+        min-height: 100vh;
+        background-size: 650px 650px;
+        background-repeat: no-repeat;
+
+
+    }
+
+    #section2 div p {
+        margin-left: 150px;
+
+    }
+
+    #textsc2 {
+        margin-top: 100px;
+        font-size: 18pt;
+    }
+
+    #botonsc2 {
+        background-color: rgb(5, 12, 101);
+        color: white;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        margin-left: 150px;
+        font-size: 15pt;
+        width: 300px;
+    }
+
+    #botonsc2:hover {
+        background-color: #959494;
+    }
+
+    /*seccion 3*/
+    #section3 {
+        background-image: url("../img/serna_abogados_cdmx.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        font-family:  Calibri;
+
+    }
+
+    #textsc3 {
+        margin-top: 125px;
+        margin-left: 100px;
+        margin-right: 200px;
+        justify-self: center;
+        font-size: 18pt;
+    }
+
+    /*seccion 4*/
+    #section4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        background-image: url("../img/Fondo_Card.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vh;
+        height: 53vh;
+        border-radius: 20px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .titlesc4 {
+        display: block;
+        margin-left: 60px;
+        padding: 0px;
+        margin-bottom: 0;
+    }
+
+    #hrsc4 {
+        display: block;
+        margin-top: 4px;
+        border: 3px solid rgb(255, 255, 255);
+        width: 100px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px
+    }
+
+    #imgsc4 {
+        position: relative;
+        height: 220px;
+        width: 350px;
+        float: right;
+        top: 20px;
+        left: 20px;
+    }
+
+    .form-control {
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        width: 40vh;
+        margin-bottom: 10px;
+    }
+
+    input::placeholder {
+        position: absolute;
+    }
+
+    #botonsc4 {
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border: none;
+        width: 120px;
+        text-align: center;
+        height: 40px;
+        margin-left: 85px;
+        background-color: #959494;
+        color: white;
+        position: relative;
+        right: 30px;
+        bottom: 25px;
+
+
+    }
+
+    #botonsc4:hover {
+        background-color: gray;
+    }
+
+    
+
+    @media (min-width: 1600px) {
+        #textsc1,#textsc3 {
+            margin-top: 200px;
+        }
+
+        #imgsc4 {
+            height: 450px;
+            width: 630px;
+            float: right;
+
+        }
+
+        .form-control {
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        #botonsc4 {
+            margin-top: 70px;
+            margin-left: 120px;
+            width: 150px;
+        }
+
+        #hrsc4 {
+            margin-left: 100px;
+        }
+
+        #textsc1,
+        #textsc2,
+        #textsc3 {
+            font-size: 25pt;
+        }
+    }
+}

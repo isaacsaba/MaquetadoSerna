@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Contactanos.css">
+    <link rel="stylesheet" href="css/Navbar.css">
+    <link rel="stylesheet" href="css/Footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand:wght@300;700&display=swap"
+        rel="stylesheet">
+    <title>SERNA</title>
+</head>
+
+<body>
+    <div id="divnabresp">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="AboutUs.html" id="headabout">
+                    <p><b>ABOUT US </b></p>
+                </a>
+                <a class="dropdown-item" href="NuestrosServicios.html" id="headservicios">
+                    <p><b>NUESTROS SERVICIOS</b></p>
+                </a>
+                <a class="dropdown-item" href="Contactanos.html" id="headcontactos">
+                    <p><b>CONTÁCTANOS</b>
+                </a>
+            </div>
+            <a class="nav-link" href="https://www.whatsapp.com" target="blank">
+                <img src="img/whatsappblue.png" alt="whatsapp" width="25vh" height="25vh" id="headwhatsapp">
+            </a>
+            <a href="Home.html"><img src="img/Logo_Serna_Abogados.png" alt="Logo" id="logo" width="120vh"
+                    height="100vh"></a>
+            <button class="btn " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <img src="img/MENU.png" alt="" width="25vh" height="25vh">
+            </button>
+        </nav>
+    </div>
+    <div id="divnab">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a href="Home.html"><img src="img/Logo_Serna_Abogados.png" alt="Logo" id="logo"></a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="AboutUs.html" id="headabout">
+                            <p><b>ABOUT US </b></p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="NuestrosServicios.html" id="headservicios">
+                            <p><b>NUESTROS SERVICIOS</b></p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contactanos.html" id="headcontactos">
+                            <p><b>CONTÁCTANOS</b></p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.whatsapp.com" target="blank">
+                            <img src="img/whatsappblue.png" alt="whatsapp" width="25vh" height="25vh" id="headwhatsapp">
+                        </a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="section1">
+    </div>
+    <div class="container" id="section2">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="text-white titlesc2" style="margin-top: 20px;"><b>ENVÍANOS</b></h2>
+                        <h2 class="text-white titlesc2"><b>UN MENSAJE</b></h2>
+                        <hr id="hrsc2">
+                        <img src="img/Mailbox Blue.H03.2k.png" alt="email" id="imgsc2">
+                    </div>
+                    <div class="col-md-4">
+                        <form action="PHP/Email.php" method="post" >
+                            <input class="form-control" type="text" placeholder="Nombre completo" id="name">
+                            <input class="form-control" type="text" placeholder="Teléfono" id="tel">
+                            <input class="form-control" type="text" placeholder="Email" id="email">
+                            <input class="form-control" type="text" placeholder="Mensaje" id="msg"
+                                style="HEIGHT: 98px; margin-bottom: 35px; " size=32><br>
+                            <a id="botonsc2" class="btn" onclick="send('Contactanos.html')" ><b>¡ENVIAR!</b></a>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="section3">
+        <div id="textsc3">
+            <h3>Nos encontramos en </h3>
+            <p> <b> Sierra Gorda, número 42, piso 1
+
+                    Col. Lomas de Chapultepec
+
+                    Delegación Miguel Hidalgo.
+
+                    Ciudad de México, CP 11000 </b></p>
+        </div>
+
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676.0828474798323!2d-99.22356690347966!3d19.426281603707906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2018865455555%3A0x1d31124e4807fed8!2sSierra%20Gorda%2042-piso%201%2C%20Lomas%20de%20Chapultepec%2C%20Miguel%20Hidalgo%2C%2011000%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1653850669141!5m2!1ses-419!2smx"
+                width="500" height="325" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/slider.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+<footer>
+
+    <div class="text-white textfooter" id="footertxt1">
+        <a href="AboutUs.html" class="linkfooter">
+            <p><b>About us</b></p>
+        </a>
+        <a href="NuestrosServicios.html" class="linkfooter">
+            <p><b>Nuestros servicios</b></p>
+        </a>
+        <a href="Contactanos.html" class="linkfooter">
+            <p><b>Contáctanos</b></p>
+        </a>
+        <a href="#" class="linkfooter">
+            <p><b>Aviso de privacidad</b></p>
+        </a>
+    </div>
+    <img src="img/Line.png" alt="line" id="footerimg">
+    <div class="  text-white textfooter text-center" id="footertxt2">
+        <p>
+            <!-- <img  src="img/Twitterwhite.png" alt="Twitter" width="25vh" height="25vh">
+            <img  src="img/facebookwhite.png" alt="Twitter" width="25vh" height="25vh"> -->
+            <div style="display: flex; justify-content: center;">
+                <a class="nav-link" href="https://www.whatsapp.com" target="blank">
+                    <img src="img/whatsappwhite.png" alt="Twitter" width="25vh" height="25vh"></a>
+                <p id="footertel">55 2517 301</p>
+            </div>
+            contacto@sernaabogados.com.mx<br>
+            SERNA ABOGADOS &copy;2022
+        </p>
+    </div>
+
+
+</footer>
+
+</html>
